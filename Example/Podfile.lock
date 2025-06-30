@@ -1,0 +1,59 @@
+PODS:
+  - AppAuth (1.7.6):
+    - AppAuth/Core (= 1.7.6)
+    - AppAuth/ExternalUserAgent (= 1.7.6)
+  - AppAuth/Core (1.7.6)
+  - AppAuth/ExternalUserAgent (1.7.6):
+    - AppAuth/Core
+  - BCrypt (1.0.0)
+  - WepinCommon (1.1.0)
+  - WepinCore (1.1.0):
+    - WepinCommon (~> 1.1.0)
+  - WepinLogin (1.1.0):
+    - AppAuth (~> 1.7.5)
+    - BCrypt (~> 1.0.0)
+    - WepinCommon (~> 1.1.0)
+    - WepinCore (~> 1.1.0)
+  - WepinModal (1.1.0)
+  - WepinProvider (1.1.0):
+    - WepinCommon (~> 1.1.0)
+    - WepinCore (~> 1.1.0)
+    - WepinLogin (~> 1.1.0)
+    - WepinModal (~> 1.1.0)
+
+DEPENDENCIES:
+  - WepinCommon (from `../../WepinCommon`)
+  - WepinCore (from `../../WepinCore`)
+  - WepinLogin (from `../../WepinLogin`)
+  - WepinModal (from `../../WepinModal`)
+  - WepinProvider (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - BCrypt
+
+EXTERNAL SOURCES:
+  WepinCommon:
+    :path: "../../WepinCommon"
+  WepinCore:
+    :path: "../../WepinCore"
+  WepinLogin:
+    :path: "../../WepinLogin"
+  WepinModal:
+    :path: "../../WepinModal"
+  WepinProvider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppAuth: d4f13a8fe0baf391b2108511793e4b479691fb73
+  BCrypt: 712b656110e5020d319c547e4d8f3053ded82b2a
+  WepinCommon: 6a797e399bff297556a84a5f17dcd4507a805d51
+  WepinCore: 33cf9941e9d8167a80097322fcebcf92c47b5eca
+  WepinLogin: b4e38c10b05ea1b5c3ff14c053bde6e0c5b92cc5
+  WepinModal: ab51a8783a10f52c80158bb14f8036842b8733a6
+  WepinProvider: 36fd6bccb6a7df3a9a4068ad0096572e9fe251e8
+
+PODFILE CHECKSUM: a196a689547472de217c0f4da4380b5cd7e6cdc6
+
+COCOAPODS: 1.16.2

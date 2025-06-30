@@ -1,0 +1,22 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'WepinProvider_Example' do
+  # pod 'WepinCommon', :path => '../../WepinCommon'
+  # pod 'WepinCore', :path => '../../WepinCore'
+  # pod 'WepinModal', :path => '../../WepinModal'
+  # pod 'WepinLogin', :path => '../../WepinLogin'
+  pod 'WepinCommon', '~> 1.1.2'
+  pod 'WepinCore', '~> 1.1.2'
+  pod 'WepinModal', '~> 1.1.2'
+  pod 'WepinLogin', '~> 1.1.2'
+  # pod 'WepinProvider', :path => '../'
+  pod 'WepinProvider', '~> 1.1.2'
+
+  target 'WepinProvider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
