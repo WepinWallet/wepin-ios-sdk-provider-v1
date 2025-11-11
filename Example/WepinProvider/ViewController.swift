@@ -15,17 +15,17 @@ class ViewController: UIViewController {
     var selectedMethod: String?
     var methodParamFields: [UITextField] = []
     
-    var appId: String = "a840783376386107736eed117085db29"
-    var appKey: String = "ak_dev_MuIgndihqglPDGHiRT4wd6G4MwZfvJeOLJn7wd36SQP"
+    var appId: String = "WEPIN_APP_ID"
+    var appKey: String = "WEPIN_APP_KEY"
     
     // Login Provider 정보
     let providerInfos: [LoginProviderInfo] = [
-        LoginProviderInfo(provider: "google", clientId: "914682313325-c9kqcpmh0vflkqflsgh6cp35b4ife95q.apps.googleusercontent.com"),
-        LoginProviderInfo(provider: "apple", clientId: "appauth.wepin"),
-        LoginProviderInfo(provider: "discord", clientId: "1244924865098551296"),
-        LoginProviderInfo(provider: "naver", clientId: "TzwZUy3ZtAK5mxOsik9P"),
-        LoginProviderInfo(provider: "facebook", clientId: "1214719865834545"),
-        LoginProviderInfo(provider: "line", clientId: "2006421675")
+        LoginProviderInfo(provider: "google", clientId: "GOOGLE_CLIENT_ID"),
+        LoginProviderInfo(provider: "apple", clientId: "APPLE_CLIENT_ID"),
+        LoginProviderInfo(provider: "discord", clientId: "DISCORD_CLIENT_ID"),
+        LoginProviderInfo(provider: "naver", clientId: "NAVER_CLIENT_ID"),
+        LoginProviderInfo(provider: "facebook", clientId: "FACEBOOK_CLIENT_ID"),
+        LoginProviderInfo(provider: "line", clientId: "LINE_CLIENT_ID")
     ]
     
     // UI Components

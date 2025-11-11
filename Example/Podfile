@@ -10,9 +10,9 @@ target 'WepinProvider_Example' do
   pod 'WepinCommon', '~> 1.1.2'
   pod 'WepinCore', '~> 1.1.2'
   pod 'WepinModal', '~> 1.1.2'
-  pod 'WepinLogin', '~> 1.1.2'
+  pod 'WepinLogin', '~> 1.2.0'
   # pod 'WepinProvider', :path => '../'
-  pod 'WepinProvider', '~> 1.1.2'
+  pod 'WepinProvider', '~> 1.2.0'
 
   target 'WepinProvider_Tests' do
     inherit! :search_paths
